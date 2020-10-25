@@ -1,5 +1,5 @@
 # Images similarity calculator Tool :robot:
-This tool receives a CSV file as its main input to process.
+This tool receives a CSV file as its main input to process a mathematical comparisson between images.
 The CSV file must contain 2 columns (image1 and image2) with the corresponding file path of the images to compare per row.
 The creation of the input CSV file is a manual process, the tool user will need to manually create it.
 Once the images are compared, the output of the toll will be a Results.csv file which will return the comparison analysis of the images pairs included in the input CSV file.
