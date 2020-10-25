@@ -15,9 +15,7 @@ and update the CSV file.
 
 <img src="howinputCSVshouldlook.PNG" width="450" >
 
-:heavy_check_mark: You can run the tool using a graphical interface [**tk_gui.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version) or if you like typing in your command line you can use **cli.py**, just follow to the instructions below:
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
-
+:heavy_check_mark: You can run the tool using a graphical interface [**tk_gui.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version) or if you like typing in your command line you can use [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version).
 ## Project structure
 A library `image_diff_score.py` contains the functionality for parsing
 CSV files, opening images and comparing them providing the score
