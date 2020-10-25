@@ -103,8 +103,24 @@ ages_to_compare.csv --output_filename /output/results.csv
 0.0 0.0 0.03145885467529297
 ```
 
+
+### Understanding the results:
+-Based on the business requirement the output file of this tool will be a CSV file with 4 Columns
+-- **Image1**
+-- **Image2**
+-- **similar**
+-- **elapsed**
+- The first 2 columns will be the same as the image paths provided in the input CSV file.
+- **similar column:** The third column contains the actual result of our analysis, the score calculated is based on 0, meaning 2 equal images will have a score of 0, the higher the deviation, the larger the difference.
+- **elapsed:** The 4th column will provide the computational time taken for each pair of images to be compared, this result is in fraction of seconds.
+
+
+
+
+
 ### Considerations
 
+Everytime the tool is run please update your local repository to download the latest version of the tool.
 The file names expected by the scripts are expected to be
 full paths, so the input files need to be aware of the docker filesystem
 context in which they run, for example, if I plan to mount the input file
