@@ -16,7 +16,7 @@ Once the images are compared, the output of the tool will be a Results.csv file 
 
 :heavy_check_mark: You can run the tool using a graphical interface [**tk_gui.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version) or if you feel like typing in your command line :nerd_face: you can use [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version).
 ## Project structure
-A library [`image_diff_score.py`](image_diff_score.py) contains the functionality for parsing CSV files, opening images and comparing them providing the score The library is used by `tk_gui.py` and `cli.py`, depending on how the user wants to use the application.
+A library [`image_diff_score.py`](image_diff_score.py) contains the functionality for parsing CSV files, opening images and comparing them providing the score The library is used by [`tk_gui.py`](tk_gui.py) and [`cli.py`](cli.py), depending on how the user wants to use the application.
 
 ## Testing
 The [`Dockerfile`](Dockerfile) contains a [`test.sh`](test.sh) script that will invoke the [`cli.py`](cli.py) and validate that the results are the ones we have been expecting.
