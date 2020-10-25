@@ -19,7 +19,7 @@ Once the images are compared, the output of the tool will be a Results.csv file 
 A library [`image_diff_score.py`](image_diff_score.py) contains the functionality for parsing CSV files, opening images and comparing them providing the score The library is used by `tk_gui.py` and `cli.py`, depending on how the user wants to use the application.
 
 ## Testing
-The [***Dockerfile***](Dockerfile) contains a [***test.sh***](test.sh) script that will invoke the [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version) and validate that the results are the ones we have been expecting.
+The [`Dockerfile`](Dockerfile) contains a [`test.sh`](test.sh) script that will invoke the [`cli.py`](cli.py) and validate that the results are the ones we have been expecting.
 By Having it as part of the docker build process it won't be possible to build an image if the code does not behave properly.
 
 Docker images can be built from this utility and provided to registries such as dockerhub/etc.
