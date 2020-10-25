@@ -1,4 +1,4 @@
-# Images similarity calculator Tool
+# Images similarity calculator Tool :robot:
 This tool receives a CSV file as its main input to process.
 The CSV file must contain 2 columns (image1 and image2) with the corresponding file path of the images to compare per row.
 The creation of the input CSV file is a manual process, the tool user will need to manually create it.
@@ -6,12 +6,12 @@ Once the images are compared, the output of the toll will be a Results.csv file 
 
 
 ## Preparation steps
-1. Download/Clone this repository to your local environment.
-2. The folder :file_folder: **/images** contains sample images :framed_picture: , that can be used a test images to test the tool.
-3. Check the real path of these images, and create a csv file with 2 columns: image1 and image2, please keep this hearder exactly as it is, just update the images path based on the the examples you will find (*images_to_compare.csv* and *imagestocompare.csv*)
+:heavy_check_mark: Download/Clone this repository to your local environment.
+:heavy_check_mark: The folder :file_folder: **/images** contains sample images :framed_picture: , that can be used a test images to test the tool.
+:heavy_check_mark: **Create your Input CSV file:** Check the real path of the images to compare, and create a csv file with 2 columns: image1 and image2, please keep this header exactly as it is, just update the images path based on the the examples you will find (*images_to_compare.csv* and *imagestocompare.csv*)
 and update the CSV file.
 <img src="howinputCSVshouldlook.PNG" width="450" >
-4. You can run the tool using a GUI (tk_gui.py) or command line (cli.py), just follow to the instructions below:
+:heavy_check_mark: You can run the tool using a graphical interface **tk_gui.py** or if you like typing in your command line you can use **cli.py**, just follow to the instructions below:
 
 
 ## Project structure
@@ -120,7 +120,7 @@ ages_to_compare.csv --output_filename /output/results.csv
 
 ### Considerations
 
-Everytime the tool is run please update your local repository to download the latest version of the tool.
+:octocat: :octocat: Everytime the tool is run please update your local repository to download the latest version of the tool. :octocat: :octocat:
 The file names expected by the scripts are expected to be
 full paths, so the input files need to be aware of the docker filesystem
 context in which they run, for example, if I plan to mount the input file
