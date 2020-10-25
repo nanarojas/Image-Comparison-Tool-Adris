@@ -10,6 +10,7 @@ Once the images are compared, the output of the toll will be a Results.csv file 
 2. The folder :file_folder: **/images** contains sample images :framed_picture: , that can be used a test images to test the tool.
 3. Check the real path of these images, and create a csv file with 2 columns: image1 and image2, please keep this hearder exactly as it is, just update the images path based on the the examples you will find (*images_to_compare.csv* and *imagestocompare.csv*)
 and update the CSV file.
+<img src="howinputCSVshouldlook.PNG" width="150" >
 4. You can run the tool using a GUI (tk_gui.py) or command line (cli.py), just follow to the instructions below:
 
 
@@ -70,7 +71,7 @@ Options:
 ## Running in docker
 
 
-### Building the docker image
+### Building the docker image :whale2:	
 ```
 $ docker build -t adriana:0.0.1 .
 ```
