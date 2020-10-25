@@ -119,10 +119,6 @@ ages_to_compare.csv --output_filename /output/results.csv
  
  -- **elapsed**
  
-|Image1|Image2|similar|elapsed|
-|---|---|---|
-| /path/imagecat1.png | /path/imagecat25.jpg | 0.256 | 0.0055555 |
-| /path/imagedog3.png | /path/imagedoggie8.jpg |0 | 0.0011115 |
 
 - The first 2 columns will be the same as the image paths provided in the input CSV file.
 - **similar column:** The third column contains the actual result of our analysis, the score calculated is based on 0, meaning 2 equal images will have a score of 0, the higher the deviation, the larger the difference.
