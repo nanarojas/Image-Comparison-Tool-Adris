@@ -1,4 +1,17 @@
 # Images similarity calculator Tool
+This tool receives a CSV file as its main input to process.
+The CSV file must contain 2 columns (image1 and image2) with the corresponding file path of the images to compare per row.
+The creation of the input CSV file is a manual process, the tool user will need to manually create it.
+Once the images are compared, the output of the toll will be a Results.csv file which will return the comparison analysis of the images pairs included in the input CSV file.
+
+
+## Preparation steps
+1. Download/Clone this repository to your local environment.
+2. The folder :file_folder: /images contains sample images :framed_picture: , that can be used a test images to test the tool.
+3. Check the real path of these images, and create a csv file with 2 columns: image1 and image2, please keep this hearder exactly as it is, just update the images path based on the the examples you will find (*images_to_compare.csv* and *imagestocompare.csv*)
+and update the CSV file.
+4. You can run the tool using a GUI (tk_gui.py) or command line (cli.py), just follow to the instructions below:
+
 
 ## Project structure
 A library `image_diff_score.py` contains the functionality for parsing
