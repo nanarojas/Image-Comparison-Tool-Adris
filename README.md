@@ -1,4 +1,4 @@
-# Imagine similarity calculator
+# Images similarity calculator Tool
 
 ## Project structure
 A library `image_diff_score.py` contains the functionality for parsing
