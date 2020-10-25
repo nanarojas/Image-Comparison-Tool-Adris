@@ -1,5 +1,5 @@
 FROM python:3.8
-LABEL MAINTAINER Adriana Rojas alguncorreo@gmail.com
+LABEL MAINTAINER Adriana Rojas ad.rojasvo@gmail.com
 # Utils required for image processing
 RUN apt-get update \
   && apt install -y libgl1-mesa-glx
