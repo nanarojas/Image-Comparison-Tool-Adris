@@ -22,7 +22,7 @@ The library is used by `tk_gui.py` and `cli.py`, depending on how the user
 wants to use the application.
 
 ## Testing
-The `Dockerfile` contains a `test.sh` script that will invoke the cli.py and
+The [***Dockerfile***](Dockerfile) contains a `test.sh` script that will invoke the cli.py and
 validate that the results are the ones we have been expecting.
 By Having it as part of the docker build process it won't be possible to build an
 image if the code does not behave properly.
