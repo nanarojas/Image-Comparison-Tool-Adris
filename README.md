@@ -6,16 +6,16 @@ Once the images are compared, the output of the tool will be a Results.csv file 
 
 
 ## Preparation steps
-:heavy_check_mark: Download/Clone this repository to your local environment.
+:heavy_check_mark: Download/Clone this repository to your git local environment. :octocat:
 
 :heavy_check_mark: The folder :file_folder: **/images** contains sample images :framed_picture: , that can be used a test images to test the tool.
 
-:heavy_check_mark: **Create your Input CSV file:** Check the real path of the images to compare, and create a csv file with 2 columns: image1 and image2, please keep this header exactly as it is, just update the images path based on the the examples you will find (*images_to_compare.csv* and *imagestocompare.csv*)
+:heavy_check_mark: **Create your Input CSV file:** Check the real path of the images to compare, and create a csv file with 2 columns: image1 and image2, please keep this header exactly as it is, just update the images path based on the the examples you will find  [*images_to_compare.csv*](images_to_compare.csv ) and *imagestocompare.csv*)
 and update the CSV file.
 
 <img src="howinputCSVshouldlook.PNG" width="450" >
 
-:heavy_check_mark: You can run the tool using a graphical interface [**tk_gui.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version) or if you like typing in your command line you can use [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version).
+:heavy_check_mark: You can run the tool using a graphical interface [**tk_gui.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version) or if you feel like typing in your command line :nerd_face: you can use [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version).
 ## Project structure
 A library `image_diff_score.py` contains the functionality for parsing
 CSV files, opening images and comparing them providing the score
