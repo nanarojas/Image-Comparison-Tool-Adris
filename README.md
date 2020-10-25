@@ -118,7 +118,8 @@ ages_to_compare.csv --output_filename /output/results.csv
  -- **similar**
  
  -- **elapsed**
- |Image1|Image2|similar|elapsed|
+ 
+|Image1|Image2|similar|elapsed|
 |---|---|---|
 | /path/imagecat1.png | /path/imagecat25.jpg | 0.256 | 0.0055555 |
 | /path/imagedog3.png | /path/imagedoggie8.jpg |0 | 0.0011115 |
