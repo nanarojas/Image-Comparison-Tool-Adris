@@ -6,7 +6,7 @@ Once the images are compared, the output of the tool will be a Results.csv file 
 
 
 ## Preparation steps
-:heavy_check_mark: Download/Clone this repository to your git local environment. :octocat:
+:heavy_check_mark: Download/Clone this repository to your local git environment. :octocat:
 
 :heavy_check_mark: The folder :file_folder: **/images** contains sample images :framed_picture: , that can be used a test images to test the tool.
 
