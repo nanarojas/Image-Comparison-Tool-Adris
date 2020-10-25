@@ -47,7 +47,7 @@ $ pip install -r requirements.txt
 ```
 $ ./tk_gui.py
 ```
-The GUI version allow you to open directories in your Windows/Mac and once the
+The GUI version allow you to open directories in your Windows/Mac to select the input CSV file and once the
 input file is selected the data can be processed.
 ![](toolgui.PNG)
 
@@ -128,7 +128,4 @@ ages_to_compare.csv --output_filename /output/results.csv
 ### Considerations
 
 - :octocat: Everytime the tool is run please update your local repository to download the latest version of the tool. :octocat:
-- The file names expected by the scripts are expected to be
-full paths, so the input files need to be aware of the docker filesystem
-context in which they run, for example, if I plan to mount the input file
-in /input then the CSV file should contain /input as the root, see Running example above.
+- The file names expected by the scripts are expected to be full paths, so the input files need to be aware of the docker filesystem context in which they run, for example, if I plan to mount the input file in /input then the CSV file should contain /input as the root, see Running example above.
