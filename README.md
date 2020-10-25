@@ -15,8 +15,8 @@ and update the CSV file.
 
 <img src="howinputCSVshouldlook.PNG" width="450" >
 
-:heavy_check_mark: You can run the tool using a graphical interface **tk_gui.py** or if you like typing in your command line you can use **cli.py**, just follow to the instructions below:
-
+:heavy_check_mark: You can run the tool using a graphical interface **tk_gui.py** [https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version] or if you like typing in your command line you can use **cli.py**, just follow to the instructions below:
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 ## Project structure
 A library `image_diff_score.py` contains the functionality for parsing
@@ -109,11 +109,20 @@ ages_to_compare.csv --output_filename /output/results.csv
 
 
 ### Understanding the results:
--Based on the business requirement the output file of this tool will be a CSV file with 4 Columns
--- **Image1**
--- **Image2**
--- **similar**
--- **elapsed**
+- Based on the business requirement the output file of this tool will be a CSV file with 4 Columns:
+
+ -- **Image1** 
+ 
+ -- **Image2**
+ 
+ -- **similar**
+ 
+ -- **elapsed**
+ |Image1|Image2|similar|elapsed|
+|---|---|---|
+| /path/imagecat1.png | /path/imagecat25.jpg | 0.256 | 0.0055555 |
+| /path/imagedog3.png | /path/imagedoggie8.jpg |0 | 0.0011115 |
+
 - The first 2 columns will be the same as the image paths provided in the input CSV file.
 - **similar column:** The third column contains the actual result of our analysis, the score calculated is based on 0, meaning 2 equal images will have a score of 0, the higher the deviation, the larger the difference.
 - **elapsed:** The 4th column will provide the computational time taken for each pair of images to be compared, this result is in fraction of seconds.
@@ -124,8 +133,8 @@ ages_to_compare.csv --output_filename /output/results.csv
 
 ### Considerations
 
-:octocat: :octocat: Everytime the tool is run please update your local repository to download the latest version of the tool. :octocat: :octocat:
-The file names expected by the scripts are expected to be
+- :octocat: Everytime the tool is run please update your local repository to download the latest version of the tool. :octocat:
+- The file names expected by the scripts are expected to be
 full paths, so the input files need to be aware of the docker filesystem
 context in which they run, for example, if I plan to mount the input file
 in /input then the CSV file should contain /input as the root, see Running example above.
