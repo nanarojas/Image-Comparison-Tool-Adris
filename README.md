@@ -47,6 +47,7 @@ $ ./tk_gui.py
 ```
 The GUI version allow you to open directories in your Windows/Mac and once the
 input file is selected the data can be processed.
+![](toolgui.PNG)
 
 ### Running the CLI version
 The CLI version can be used from Windows PowerShell or a Linux terminal, just need to be in the same directory as the
