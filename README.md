@@ -127,6 +127,6 @@ ages_to_compare.csv --output_filename /output/results.csv
 
 ### Considerations
 
-- :octocat: Everytime the tool is run please update your local repository to download the latest version of the tool. :octocat:
+- :octocat: Before running this tool, please make sure you have the latest version, please update your local repository to download the most updated version of the tool. :octocat:
 - The most important dependency of this tool is its input file, if the user uploads bad data the computational won't work.  For troubleshooting please validate that the input file has the same column names as indicated in the Preparation steps, and that each image path is valid.
 - The file names expected by the scripts are expected to be full paths, so the input files need to be aware of the docker filesystem context in which they run, for example, if I plan to mount the input file in /input then the CSV file should contain /input as the root, see Running example above.
