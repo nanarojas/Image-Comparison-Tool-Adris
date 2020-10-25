@@ -1,0 +1,13 @@
+,Image1,Image2,similar,elapsed
+0,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2catsm.jpg,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,0.3601432853297968,0.06902527809143066
+1,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.jpg,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,0.00015812198054721005,0.02201080322265625
+2,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2cat.jpg,0.34686864650177485,0.03896522521972656
+3,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2cat.png,0.3466652812582133,0.026204586029052734
+4,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2cat.bmp,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,0.3466652812582133,0.03799724578857422
+5,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2cat.jpg,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2catsm.jpg,0.06636203054023837,0.017002344131469727
+6,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\2cat.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.bmp,0.3466652812582133,0.03896737098693848
+7,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.jpg,0.00015812198054721005,0.023958683013916016
+8,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.jpg,0.00015812198054721005,0.016000986099243164
+9,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.jpg,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.png,0.00015812198054721005,0.016966819763183594
+10,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,0.0,0.018967390060424805
+11,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1catb.png,C:\Users\adroj\Downloads\python-compare-two-images\python-compare-two-images\images\1cat.png,0.0,0.020966291427612305
