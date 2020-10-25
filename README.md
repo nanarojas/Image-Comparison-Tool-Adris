@@ -16,16 +16,11 @@ Once the images are compared, the output of the tool will be a Results.csv file 
 
 :heavy_check_mark: You can run the tool using a graphical interface [**tk_gui.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-tk-gui-version) or if you feel like typing in your command line :nerd_face: you can use [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version).
 ## Project structure
-A library `image_diff_score.py` contains the functionality for parsing
-CSV files, opening images and comparing them providing the score
-The library is used by `tk_gui.py` and `cli.py`, depending on how the user
-wants to use the application.
+A library `image_diff_score.py` contains the functionality for parsing CSV files, opening images and comparing them providing the score The library is used by `tk_gui.py` and `cli.py`, depending on how the user wants to use the application.
 
 ## Testing
-The [***Dockerfile***](Dockerfile) contains a [***test.sh***](test.sh) script that will invoke the cli.py and
-validate that the results are the ones we have been expecting.
-By Having it as part of the docker build process it won't be possible to build an
-image if the code does not behave properly.
+The [***Dockerfile***](Dockerfile) contains a [***test.sh***](test.sh) script that will invoke the [**cli.py**](https://github.com/nanarojas/Image-Comparison-Tool-Adris#running-the-cli-version) and validate that the results are the ones we have been expecting.
+By Having it as part of the docker build process it won't be possible to build an image if the code does not behave properly.
 
 Docker images can be built from this utility and provided to registries such as dockerhub/etc.
 
@@ -33,8 +28,7 @@ Docker images can be built from this utility and provided to registries such as 
 
 ### Creating a virtual Environment
 
-It is suggested to create a virtual environment to avoid installing packages
-of potentially incompatible versions system-wide.
+It is suggested to create a virtual environment to avoid installing packages of potentially incompatible versions system-wide.
 ```
 $ apt-get install python3-venv
 $ python3 -m venv venv
@@ -47,13 +41,11 @@ $ pip install -r requirements.txt
 ```
 $ ./tk_gui.py
 ```
-The GUI version allow you to open directories in your Windows/Mac to select the input CSV file and once the
-input file is selected the data can be processed.
+The GUI version allow you to open directories in your Windows/Mac to select the input CSV file and once the input file is selected the data can be processed.
 ![](toolgui.PNG)
 
 ### Running the CLI version
-The CLI version can be used from Windows PowerShell or a Linux terminal, just need to be in the same directory as the
-other files of this document.
+The CLI version can be used from Windows PowerShell or a Linux terminal, just need to be in the same directory as the other files of this document.
 
 
 ```
