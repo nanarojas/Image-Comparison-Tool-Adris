@@ -110,7 +110,7 @@ ages_to_compare.csv --output_filename /output/results.csv
  
 
 - The first 2 columns will be the same as the image paths provided in the input CSV file.
-- **similar column:** The third column contains the actual result of our analysis, the score calculated is based on 0, meaning 2 equal images will have a score of 0, the higher the deviation, the larger the difference.
+- **similar:** The third column contains the actual result of our analysis, the score calculated is based on 0, meaning 2 equal images will have a score of 0, the higher the deviation, the larger the difference.
 - **elapsed:** The 4th column will provide the computational time taken for each pair of images to be compared, this result is in fraction of seconds.
 
 
