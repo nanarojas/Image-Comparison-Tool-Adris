@@ -8,7 +8,7 @@ Once the images are compared, the output of the tool will be a Results.csv file 
 ## Preparation steps
 :heavy_check_mark: Download/Clone this repository to your local git environment. :octocat:
 
-:heavy_check_mark: The folder :file_folder: [**/images**](/images) contains sample images :framed_picture: , that can be used a test images to test the tool.
+:heavy_check_mark: The folder :file_folder: [**/images**](/images) contains sample images :framed_picture: , that can be used as test images to test the tool.
 
 :heavy_check_mark: **Create your Input CSV file:** Check the real path of the images to compare, and create a csv file with 2 columns: image1 and image2, please keep this header exactly as it is, just update the images path based on the the examples csv files your will find in this repository  [*images_to_compare.csv*](images_to_compare.csv ) and [*imagestocompare.csv*](imagestocompare.csv) and update the CSV file.
 
